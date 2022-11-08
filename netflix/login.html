@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login Page</title>
+    <link rel="icon" href="favicon.ico">
+
+    <style>
+
+        body{
+            margin: 0;
+            background-image: url("cover.jpg");
+            background-size: cover;
+            opacity:1;
+            background-color: black;
+            background-color: transparent;
+       
+            
+            
+        }
+
+        .bar1{
+
+            padding-top: 25px;
+            padding-left: 45px;
+            
+            
+        }
+        .box1 {
+            background-color: black;
+            margin-top: 6vh;
+            height: 82vh;
+            width: 28vw;
+            margin-left: 35vw;
+            color: white;
+           
+        }
+
+        #emailid {
+            border: 1px solid black;
+            border-radius: 4px;
+            height: 42px;
+            width: 250px;
+            margin-bottom: 14px;
+            padding-left: 20px;
+            background-color: rgb(59, 59, 59);
+            color: whitesmoke;
+        }
+
+        #passwd {
+            border: 1px solid black;
+            border-radius: 4px;
+            height: 42px;
+            width: 250px;
+            padding-left: 18px;
+            margin-bottom: 28px;
+            background-color: rgb(59, 59, 59);
+            color: whitesmoke;
+        }
+
+        #btn1 {
+            border: 1px solid black;
+            border-radius: 4px;
+            height: 42px;
+            width: 272px;
+            color: white;
+            background-color: red;
+            font-size: 16px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            padding-top: 60px;
+            color: rgb(198, 198, 198);
+            padding-right: 58px;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .p2 {
+            padding-top: 0px;
+            color: rgb(198, 198, 198);
+            margin-left: 52px;
+            font-size: 12px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+       footer{
+        background-color: black;
+      
+        padding-left: 200px;
+        padding-top: 0px;
+        padding-bottom: 80px;
+        margin-top: 90px;
+       
+       }
+
+        .box2 {
+
+            padding-left: 70px;
+            margin-top: 100px;
+
+            padding-top:  -12px;
+          
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .block {
+            padding-right: 120px;
+            padding-top: 50px;
+           
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        #lang {
+            background-color: black;
+            border: 1px solid white;
+            border-radius: 4px;
+            color: gray;
+            height: 48px;
+            width: 110px;
+            margin-left: 70px;
+            margin-top: 20px;
+            
+        }
+
+        #para1{
+            color: gray;
+             margin-bottom: -120px;
+             padding-left: 68px;
+        }
+
+        .big{
+            background-color: rgb(17, 17, 17);
+            opacity: 0.85;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="big">
+    <div class="bar1">
+        <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="no image" width=" 165px" id="img1" ">
+    </div>
+
+    <div class="box1" >
+        <center id="center1">
+            <h1
+                style="color: white; padding-top: 55px; padding-right: 150px; font-family: Arial, Helvetica, sans-serif;">
+                Sign In</h1>
+            <form action="">
+
+                <input type="email" name="email" id="emailid" placeholder="Email or phone number" required>
+                <br>
+                <input type="password" name="passwd" id="passwd" placeholder="Password">
+                <br>
+                <button type="submit" id="btn1">Sign In</button>
+                <br>
+                <input type="checkbox" name="check" id="check"
+                    style="margin-left:0px; margin-top: 15px; color: rgb(61, 61, 61);">
+                <label for="check" style="margin-right: 15px ; color: rgb(198, 198, 198); font-size: 14px;">Remember
+                    me</label>
+                <a href="" style="padding-left: 75px;  font-size: 14px;">Need help?</a>
+
+            </form>
+
+            <p>New to Netflix? <a href="">Sign up now.</a></p>
+
+            <p class="p2">
+                This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href=""
+                    style="color: blue ;">Learn more.</a>
+            </p>
+        </center>
+    </div>
+
+    <footer>
+        <p id="para1">Questions? Call 000-800-040-1843 </p>
+        
+        <div class="box2">
+
+          
+            <span class="block">
+
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">FAQ</a>
+                <a href="" style="color: gray;
+         text-decoration: none;  padding-bottom: 12px;">Cookies Preference</a>
+
+
+
+            </span>
+            <span class="block">
+
+                <a href="" style="color: gray;
+        text-decoration: none; padding-bottom: 12px;">Help Center </a>
+                <a href="" style="color: gray;
+         text-decoration: none;  padding-bottom: 12px;">Corporate Information</a>
+
+
+
+            </span>
+
+            <span class="block">
+                <a href="" style="color: gray;
+            text-decoration: none; padding-bottom: 12px;">Terms of Use</a>
+
+
+            </span>
+            <span class="block">
+
+                <a href="" style="color: gray;
+            text-decoration: none; padding-bottom: 12px;">Privacy</a>
+
+
+            </span>
+
+
+
+
+        </div>
+        <select name="language" id="lang">
+            <option value="english">English</option>
+            <option value="hindi">हिन्दी</option>
+        </select>
+    </footer>
+   </div>
+</body>
+
+</html>
